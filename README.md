@@ -75,7 +75,7 @@ concluding with an overall accuracy score.
 
 The results are impressive and unimpressive at the same time. With the rule of
 thumb of *k* = 5, which really does appear to be about the best, the accuracy
-of the classifier hovers somewhere about 60%. This is much less than the
+of the classifier hovers somewhere around 60%. This is much less than the
 near-total accuracy of the best machine learning classifiers. But it's also
 much more than the probability of success with random guessing, which, by the
 calculations available in `random-guessing.py`, is about 10.6%. A sixfold
