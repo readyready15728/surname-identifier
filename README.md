@@ -83,4 +83,8 @@ improvement over random chance with a deeply suboptimal database is
 encouraging and suggests that accuracy could be improved considerably with
 more data. I have also considered excluding ethnic groups with few names and
 focusing only on those with, say, one hundred or more members each to see if
-that would improve performance.
+that would improve performance. (**EDIT:** the branch reduced of this
+repository shows what happens when only ethnic groups with two hundred or more
+surnames are included. The accuracy increases to above 70%, though the
+advantage over random guessing is diminished: random guessing is now effective
+over 20% of the time.)
