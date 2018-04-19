@@ -6,14 +6,14 @@ people's surnames using Levenshtein distance. Here is the realization of that
 dream.
 
 I used the [surname database](https://surnames.behindthename.com) from the
-website Behind the Name to achieve this goal. It is far from a perfect
-database and I had to do a lot of editing to get workable data for k-NN. Some
-categories were simply too small to be considered for inclusion. Some
-categories are multi-ethnic and so would likely not allow reliable distinctions
-in edit distance as linguistic differences can be huge. The
-[African](https://surnames.behindthename.com/names/usage/african) category is
-exceptional in this regard: not only is it very small but the surnames run the
-gamut from West and East African ethnic groups to the foreign Afrikaans
+website [Behind the Name](https://www.behindthename.com) to achieve this goal.
+It is far from a perfect database and I had to do a lot of editing to get
+workable data for k-NN. Some categories were simply too small to be considered
+for inclusion. Some categories are multi-ethnic and so would likely not allow
+reliable distinctions in edit distance as linguistic differences can be huge.
+The [African](https://surnames.behindthename.com/names/usage/african) category
+is exceptional in this regard: not only is it very small but the surnames run
+the gamut from West and East African ethnic groups to the foreign Afrikaans
 settlers! Some names are not particular to any one ethnic group and so would
 provide little information to the classifier. There were indeed numerous names
 shared by the English and the Celtic ethnic groups of the British Isles with
