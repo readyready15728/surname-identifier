@@ -13,7 +13,7 @@ for inclusion. Some categories are multi-ethnic and so would likely not allow
 reliable distinctions in edit distance as linguistic differences can be huge.
 The [African](https://surnames.behindthename.com/names/usage/african) category
 is exceptional in this regard: not only is it very small but the surnames run
-the gamut from West and East African ethnic groups to the foreign Afrikaans
+the gamut from West and East African ethnic groups to the foreign Afrikaaner
 settlers! Some names are not particular to any one ethnic group and so would
 provide little information to the classifier. There were indeed numerous names
 shared by the English and the Celtic ethnic groups of the British Isles with
