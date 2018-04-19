@@ -5,7 +5,7 @@ from sklearn import neighbors
 from sklearn.model_selection import train_test_split
 
 surnames = pd.read_csv('surnames.csv')
-k = 7
+k = 5
 
 X = surnames['surname']
 y = surnames['ethnicity']
