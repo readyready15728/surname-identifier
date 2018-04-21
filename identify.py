@@ -1,7 +1,6 @@
 from collections import Counter
 import Levenshtein
 import pandas as pd
-from sklearn import neighbors
 from sklearn.model_selection import train_test_split
 
 surnames = pd.read_csv('surnames.csv')
