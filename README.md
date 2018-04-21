@@ -2,8 +2,9 @@
 ## Trying to discern surname origin using k-NN in Python
 
 A while ago I had a dream where I was using k-NN to determine the ethnicity of
-people's surnames using Levenshtein distance. Here is the realization of that
-dream.
+people's surnames using [Levenshtein
+distance](https://en.wikipedia.org/wiki/Levenshtein_distance). Here is the
+realization of that dream.
 
 I used the [surname database](https://surnames.behindthename.com) from the
 website [Behind the Name](https://www.behindthename.com) to achieve this goal.
