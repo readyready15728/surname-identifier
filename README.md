@@ -1,7 +1,7 @@
 # Surname Identifier
-## Trying to discern surname origin using k-NN in Python
+## Trying to discern surname origin using *k*-NN in Python
 
-A while ago I had a dream where I was using k-NN to determine the ethnicity of
+A while ago I had a dream where I was using *k*-NN to determine the ethnicity of
 people's surnames using [Levenshtein
 distance](https://en.wikipedia.org/wiki/Levenshtein_distance). Here is the
 realization of that dream.
@@ -9,7 +9,7 @@ realization of that dream.
 I used the [surname database](https://surnames.behindthename.com) from the
 website [Behind the Name](https://www.behindthename.com) to achieve this goal.
 It is far from a perfect database and I had to do a lot of editing to get
-workable data for k-NN. Some categories were simply too small to be considered
+workable data for *k*-NN. Some categories were simply too small to be considered
 for inclusion. Some categories are multi-ethnic and so would likely not allow
 reliable distinctions in edit distance as linguistic differences can be huge.
 The [African](https://surnames.behindthename.com/names/usage/african) category
@@ -65,10 +65,10 @@ but I was concerned about making things too easy for the classifier.
 
 When all was said and done I ran into another problem. scikit-learn, the
 machine learning framework that the dream said I was using to classify the
-surnames only supports the use of numerical data with k-NN, even if a custom
+surnames only supports the use of numerical data with *k*-NN, even if a custom
 distance metric is used. Oh well, so much for my dream. Fortunately, I was at
 least able to use scikit-learn to get a stratified sample of the data and,
-because at least a naïve implementation of k-NN is relatively easy to
+because at least a naïve implementation of *k*-NN is relatively easy to
 write—and naïve worked here—I had my own implementation up and running pretty
 soon. It can be run with `python3 identify.py`, which will spit out a report
 comparing predictions about the test set with actual ethnicities and
