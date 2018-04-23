@@ -79,13 +79,16 @@ thumb of *k* = 5, which really does appear to be about the best, the accuracy
 of the classifier hovers somewhere around 60%. This is much less than the
 near-total accuracy of the best machine learning classifiers. But it's also
 much more than the probability of success with random guessing, which, by the
-calculations available in `random-guessing.py`, is about 10.6%. A sixfold
-improvement over random chance with a deeply suboptimal database is
-encouraging and suggests that accuracy could be improved considerably with
-more data. I have also considered excluding ethnic groups with few names and
-focusing only on those with, say, one hundred or more members each to see if
-that would improve performance. (**EDIT:** the branch reduced of this
-repository shows what happens when only ethnic groups with two hundred or more
-surnames are included. The accuracy increases to above 70%, though the
-advantage over random guessing is diminished: random guessing is now effective
-over 20% of the time.)
+calculations available in `random-guessing.py`, is about 10.6%. (Specifically,
+by "random guessing", I refer to random guesses drawn from a probability
+distribution equal to that describing the distribution of ethnic groups in the
+data. Random guessing with each ethnic group being equiprobable performs *far*
+worse.) A sixfold improvement over random chance with a deeply suboptimal
+database is encouraging and suggests that accuracy could be improved
+considerably with more data. I have also considered excluding ethnic groups
+with few names and focusing only on those with, say, one hundred or more
+members each to see if that would improve performance. (**EDIT:** the branch
+reduced of this repository shows what happens when only ethnic groups with two
+hundred or more surnames are included. The accuracy increases to above 70%,
+though the advantage over random guessing is diminished: random guessing is
+now effective over 20% of the time.)
